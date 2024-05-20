@@ -104,6 +104,15 @@ Before you begin, ensure you have met the following requirements:
 - Update sensor configurations in `config/sensors_config.json`.
 - Adjust system settings in `config/settings.json`.
 
+## Simulated Sensor Data
+
+If you don't have physical sensors available, you can still test the system using simulated sensor data. Modify the `config/sensors_config.json` file to enable simulated data mode and adjust the parameters as needed.
+
+## Data Visualization
+
+The web dashboard provides real-time visualization of sensor data. Customize the dashboard layout and design according to your preferences by modifying the HTML and CSS files in the `web_app` directory.
+
+
 ## Contributing
 
 Contributions are welcome! Please follow the [Contributing Guidelines](https://github.com/niladrridas/raspisolarcontrol/blob/main/CONTRIBUTING.md).
@@ -117,3 +126,7 @@ This project is licensed under the [MIT License](https://github.com/niladrridas/
 - Thanks to [OpenWeather](https://openweathermap.org/) for providing weather data for testing.
 - Special thanks to Ubidots for providing a platform for real-time data visualization.
 - Inspired by the Maker community and open-source projects driving innovation in environmental monitoring.
+
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introducing a new project building upon my previous Raspberry Pi work: an Environmental Monitoring Device. Stay tuned for detailed documentation on GitHub for open-source access. Currently utilizing virtual sensors via a Python script due to the absence of physical sensors. <a href="https://t.co/jcmHS7onBm">pic.twitter.com/jcmHS7onBm</a></p>&mdash; Niladri Das (@niladrridas) <a href="https://twitter.com/niladrridas/status/1792456595546472456?ref_src=twsrc%5Etfw">May 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
